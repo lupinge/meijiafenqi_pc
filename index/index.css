@@ -40,7 +40,6 @@ a, a:hover, a:active, a:visited {
     height: 36px;
     border-bottom: 1px solid #eee;
 }
-
 .header-top-box {
     width: 1000px;
     height: 36px;
@@ -68,22 +67,18 @@ a.cur-address{
 a.header-login:hover,a.header-reg:hover {
     color: #333
 }
-
 a.header-reg {
     margin-left: 8px
 }
-
 .header-banner {
     height: 80px;
 }
-
 .header-banner-c {
     height: 80px;
     width: 1000px;
     margin: 0 auto;
     overflow: hidden
 }
-
 a.best-logo {
     display: block;
     float: left;
@@ -95,21 +90,18 @@ a.best-logo {
     background-size: 190px 61px;
     margin-top: 10px;
 }
-
 .header-nav {
     float: left;
     margin-left: 47px;
     height: 80px;
     overflow: hidden
 }
-
 .header-nav li {
     float: left;
     height: 80px;
     line-height: 80px;
     margin-left: 27px
 }
-
 .header-nav li a {
     display: block;
     font-size: 16px;
@@ -118,17 +110,14 @@ a.best-logo {
     padding: 0 9px;
     text-align: center
 }
-
 .header-nav li a.active {
     border-bottom: 2px solid #ff1632
 }
-
 .header-other {
     float: right;
     height: 80px;
     line-height: 84px
 }
-
 .i-header-phone {
     display: inline-block;
     width: 22px;
@@ -141,13 +130,11 @@ a.best-logo {
     margin-top: 32px;
     margin-right: 7px
 }
-
 .i-header-phone+span {
     color: #333;
     font-size: 18px;
     margin-right: 128px
 }
-
 a.btn-merchant{
     display: inline-block;
     width: 94px;
@@ -166,7 +153,6 @@ a.btn-merchant{
     -o-transition: all .2s linear;
     transition: all .2s linear
 }
-
 a.btn-merchant:hover {
     border: 1px solid #aaa;
 }
@@ -443,7 +429,4 @@ a.btn-apply:hover {
 a.copyright-bei{
     margin-left: 15px;
 }
-
-
-
 /*footer样式 结束*/
