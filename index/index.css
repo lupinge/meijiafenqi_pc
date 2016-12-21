@@ -371,7 +371,79 @@ a.btn-apply:hover {
     font-weight: 700;
 }
 
-
-
 /*index2样式 结束*/
 
+
+
+/*footer样式 开始*/
+.footer{
+    height: 160px;
+    background-color: #515151;
+    color: #fff;
+    font-size: 14px;
+    overflow: hidden;
+}
+.footer a{
+    color: #fff;
+}
+.bot-nav{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 34px;
+}
+.bot-nav li{
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    border-right: 1px solid #fff;
+    padding: 0 10px;
+}
+.bot-nav li:last-child{
+    border-right: none;
+}
+.bot-nav li a{
+    color: #fff;
+}
+
+.links-info {
+    width:1000px;
+    margin: 27px auto 0;
+    overflow:hidden
+}
+.links-info .links-tit {
+    color:#fff;
+    display:block;
+    float:left
+}
+.links-info ul {
+    width:830px;
+    height:auto;
+    float:left;
+    margin-left:20px;
+    padding:0
+}
+.links-info ul li {
+    height:12px;
+    float:left;
+    margin-right:20px;
+    margin-bottom:10px
+}
+.links-info ul li a {
+    margin:0;
+    line-height:12px
+}
+.links-info .links-more {
+    display:block;
+    float:right;
+}
+.copyright{
+    margin-top: 10px;
+    text-align: center;
+}
+a.copyright-bei{
+    margin-left: 15px;
+}
+
+
+
+/*footer样式 结束*/
