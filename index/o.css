@@ -1,0 +1,335 @@
+body,ul,ol,li,p,img,h1,h2,h3,h4,h5,h6,input,form,button {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    zoom: 1
+}
+
+img {
+    vertical-align: top;
+    border: 0
+}
+
+a,input[type=text] {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none
+}
+
+.toast {
+    font-size: 14px;
+    display: block;
+    z-index: 9999;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    width: 320px;
+    margin-left: -160px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center
+}
+
+.toast span {
+    border-radius: 5px;
+    background: rgba(0,0,0,.7);
+    display: inline-block;
+    max-width: 228px;
+    padding: 5px 10px;
+    word-break: break-all
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+html {
+    line-height: 1
+}
+
+ol,ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,th,td {
+    text-align: left;
+    font-weight: 400;
+    vertical-align: middle
+}
+
+q,blockquote {
+    quotes: none
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+    content: "";
+    content: none
+}
+
+a img {
+    border: 0
+}
+
+elements-of-type(html5-block) {
+    display: block
+}
+
+.left {
+    display: inline;
+    float: left
+}
+
+.right {
+    display: inline;
+    float: right
+}
+
+.clearfix {
+    overflow: hidden;
+    *zoom: 1
+}
+
+.clear {
+    clear: both
+}
+
+.fix-mr {
+    margin-right: 0!important
+}
+
+.lh1 {
+    line-height: 1
+}
+
+.lh2 {
+    line-height: 2
+}
+
+.f12 {
+    font-size: 12px
+}
+
+.f14 {
+    font-size: 14px
+}
+
+.f16 {
+    font-size: 16px
+}
+
+.f18 {
+    font-size: 18px
+}
+
+.f20 {
+    font-size: 20px
+}
+
+.no-bt {
+    border-top: 0!important
+}
+
+.no-br {
+    border-right: 0!important
+}
+
+.no-bb {
+    border-bottom: 0!important
+}
+
+.no-bl {
+    border-left: 0!important
+}
+
+body,button,input,select,textarea {
+    font: 12px/1.5 tahoma,arial,'Microsoft Yahei','Hiragino Sans GB',\5b8b\4f53,sans-serif;
+    -webkit-font-smoothing: antialiased
+}
+
+input,button,select,textarea {
+    outline: 0
+}
+
+textarea {
+    resize: none
+}
+
+body,html {
+    -webkit-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto
+}
+
+.wrap,.content {
+    width: 100%;
+    overflow: hidden
+}
+
+.top-banner-box {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background: url(http://static.meijiaapp.com/page/index2/img/top-banner-bg@1x_44bd6bc.jpg) no-repeat center center
+}
+
+.top-banner-c {
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    color: #fff
+}
+
+.banner-slogan {
+    width: 721px;
+    height: 154px;
+    background-image: url(http://static.meijiaapp.com/page/index2/img/banner-slogan@2x_7f0987f.png);
+    background-image: -webkit-image-set(url(http://static.meijiaapp.com/page/index2/img/banner-slogan@1x_60a59a9.png) 1x,url(http://static.meijiaapp.com/page/index2/img/banner-slogan@2x_7f0987f.png) 2x);
+    background-repeat: no-repeat;
+    background-size: 721px 154px;
+    margin-top: 176px
+}
+
+a.banner-listen {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    width: 202px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 2px;
+    margin-top: 50px;
+    background-color: #6442ab;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+a.banner-listen:hover {
+    background-color: #553594
+}
+
+.guarantee-slogan1 {
+    height: 50px;
+    line-height: 50px;
+    font-size: 46px;
+    color: #333;
+    text-align: center;
+    margin-top: 100px
+}
+
+.guarantee-slogan2 {
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    margin-top: 12px
+}
+
+.guarantee-list {
+    width: 1000px;
+    margin: 50px auto 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between
+}
+
+.guarantee-list li {
+    width: 235px;
+    height: 350px
+}
+
+.guarantee-list li img {
+    width: 235px;
+    height: 235px
+}
+
+.guarantee-list li .guarantee-title {
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px
+}
+
+.guarantee-list li .guarantee-desc {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.4
+}
+
+.bottom-banner-box {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background: url(http://static.meijiaapp.com/page/index2/img/bottom-banner-bg@1x_5b76494.jpg) no-repeat center center;
+    margin-top: 100px
+}
+
+.bottom-banner-c {
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    color: #fff
+}
+
+.bottom-banner-slogan {
+    width: 722px;
+    height: 209px;
+    background-image: url(http://static.meijiaapp.com/page/index2/img/bottom-banner-slogan@2x_719d827.png);
+    background-image: -webkit-image-set(url(http://static.meijiaapp.com/page/index2/img/bottom-banner-slogan@1x_35b3117.png) 1x,url(http://static.meijiaapp.com/page/index2/img/bottom-banner-slogan@2x_719d827.png) 2x);
+    background-repeat: no-repeat;
+    background-size: 722px 209px;
+    margin-top: 188px
+}
+
+.server-list {
+    width: 1000px;
+    margin: 50px auto 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-bottom: 50px
+}
+
+.server-list li {
+    width: 320px;
+    height: 320px;
+    border: 1px solid #ccc;
+    border-radius: 8px
+}
+
+.server-list li img {
+    width: 90px;
+    height: 102px;
+    margin: 64px auto 0;
+    display: block
+}
+
+.server-list li .guarantee-title {
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 38px
+}
+
+.server-list li .guarantee-desc {
+    width: 77%;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.4;
+    margin: 8px auto 0
+}
