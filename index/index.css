@@ -394,7 +394,8 @@ a.btn-apply:hover {
 .links-info {
     width:1000px;
     margin: 27px auto 0;
-    overflow:hidden
+    overflow:hidden;
+    font-size: 12px;
 }
 .links-info .links-tit {
     color:#fff;
@@ -425,6 +426,7 @@ a.btn-apply:hover {
 .copyright{
     margin-top: 10px;
     text-align: center;
+    font-size: 12px;
 }
 a.copyright-bei{
     margin-left: 15px;
