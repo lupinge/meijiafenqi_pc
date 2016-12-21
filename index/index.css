@@ -90,7 +90,7 @@ a.best-logo {
     width: 190px;
     height: 61px;
     background-image: url(./img/logo@2x.png);
-    background-image: -webkit-image-set(url(./img/logo@1x.png) 1x,url(./img/logo@2x) 2x);
+    background-image: -webkit-image-set(url(./img/logo@1x.png) 1x,url(./img/logo@2x.png) 2x);
     background-repeat: no-repeat;
     background-size: 190px 61px;
     margin-top: 10px;
