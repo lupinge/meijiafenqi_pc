@@ -82,13 +82,13 @@ a.header-reg {
 a.best-logo {
     display: block;
     float: left;
-    width: 190px;
-    height: 61px;
+    width: 164px;
+    height: 62px;
     background-image: url(./img/logo@2x.png);
     background-image: -webkit-image-set(url(./img/logo@1x.png) 1x,url(./img/logo@2x.png) 2x);
     background-repeat: no-repeat;
-    background-size: 190px 61px;
-    margin-top: 10px;
+    background-size: 164px 62px;
+    margin-top: 9px;
 }
 .header-nav {
     float: left;
