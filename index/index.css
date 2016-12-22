@@ -79,16 +79,16 @@ a.header-reg {
     margin: 0 auto;
     overflow: hidden
 }
-a.best-logo {
+a.index-logo {
     display: block;
     float: left;
-    width: 164px;
-    height: 62px;
+    width: 150px;
+    height: 42px;
     background-image: url(./img/logo@2x.png);
     background-image: -webkit-image-set(url(./img/logo@1x.png) 1x,url(./img/logo@2x.png) 2x);
     background-repeat: no-repeat;
-    background-size: 164px 62px;
-    margin-top: 9px;
+    background-size: 150px 42px;
+    margin-top: 19px;
 }
 .header-nav {
     float: left;
