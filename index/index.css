@@ -17,7 +17,7 @@ a, input[type=text] {
 a, a:hover, a:active, a:visited {
     text-decoration: none;
 }
-.wrap{
+.wrap-index{
     width: 100%;
     overflow: hidden;
     font: 12px/1.5 tahoma,arial,'Microsoft Yahei','Hiragino Sans GB',\5b8b\4f53,sans-serif;
@@ -72,6 +72,7 @@ a.header-reg {
 }
 .header-banner {
     height: 80px;
+    background-color: #fff
 }
 .header-banner-c {
     height: 80px;
@@ -368,6 +369,10 @@ a.btn-apply:hover {
     color: #fff;
     font-size: 14px;
     overflow: hidden;
+    margin-top: 30px;
+}
+.index .footer {
+    margin-top: 0;
 }
 .footer a{
     color: #fff;
